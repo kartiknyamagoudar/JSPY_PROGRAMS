@@ -7,7 +7,7 @@ public class Vector2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Vector v2=new Vector();
+		Vector<Object> v2=new Vector<Object>();
 		v2.add(10);
 		v2.add(20.56);
 		v2.add('A');

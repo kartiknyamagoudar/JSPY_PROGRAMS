@@ -7,7 +7,7 @@ public class Vector5 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Vector v6 = new Vector();
+		Vector<Object> v6 = new Vector<Object>();
 		
 		v6.add(10);
 		v6.add(20);
@@ -15,7 +15,7 @@ public class Vector5 {
 		v6.add(40);
 		v6.add(50);
 		
-		Vector v7 = new Vector();
+		Vector<Object> v7 = new Vector<Object>();
 		
 		v7.add(30);
 		v7.add(40);

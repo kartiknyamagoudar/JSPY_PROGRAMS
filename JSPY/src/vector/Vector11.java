@@ -15,7 +15,7 @@ public class Vector11 {
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Vector v13=new Vector();
+		Vector<Integer> v13=new Vector<Integer>();
 		
 		System.out.println(v13.add(10));
 		System.out.println(v13.add(20));

@@ -146,7 +146,7 @@ public class Mainclass {
 
 	public static void main(String[] args) {
 		System.out.println("Mobile details");
-		ArrayList a1=new ArrayList();
+		ArrayList<Object> a1=new ArrayList<Object>();
 		
 		a1.add(new Mobile1(17000,"Samsung","Black"));
 		a1.add(new Mobile1(15000,"vivo","gray"));
@@ -157,7 +157,7 @@ public class Mainclass {
 		}
 		System.out.println("");
 		System.out.println("car details");
-		ArrayList a2=new ArrayList();
+		ArrayList<Object> a2=new ArrayList<Object>();
 		a2.add(new Car1(2000000,"Thar","Desial"));
 		a2.add(new Car1(1000000,"swift","petrol"));
 		a2.add(new Car1(3000000,"omini","cng"));
@@ -168,7 +168,7 @@ public class Mainclass {
 		}
 		System.out.println("");
 		System.out.println("School details");
-		ArrayList a3=new ArrayList();
+		ArrayList<Object> a3=new ArrayList<Object>();
 		a3.add(new School("MDRS",'A',50));
 		a3.add(new School("MDRS",'B',50));
 		a3.add(new School("MDRS",'C',50));
@@ -180,7 +180,7 @@ public class Mainclass {
 			}
 		System.out.println("");
 		System.out.println("Tv details");
-		ArrayList a4=new ArrayList();
+		ArrayList<Object> a4=new ArrayList<Object>();
 		a4.add(new Tv(12000,"LG","LED"));
 		a4.add(new Tv(14000,"Samsung","LED"));
 		a4.add(new Tv(6000,"videocan","LED"));
@@ -192,7 +192,7 @@ public class Mainclass {
 			}
 		System.out.println("");
 		System.out.println("Bike details");
-		ArrayList a5=new ArrayList();
+		ArrayList<Object> a5=new ArrayList<Object>();
 		a5.add(new Bike(2500000,"Royal Enfield","Gray"));
 		a5.add(new Bike(1200000,"ducati","orange"));
 		a5.add(new Bike(500000,"hero honda","black"));
@@ -204,7 +204,7 @@ public class Mainclass {
 		}
 		System.out.println("");
 		System.out.println("Collage details");
-		ArrayList a6=new ArrayList();
+		ArrayList<Object> a6=new ArrayList<Object>();
 		a6.add(new Collage("SJMIT","VTU",1680));
 		a6.add(new Collage("DB","VTU",1680));
 		a6.add(new Collage("RV","VTU",1680));
@@ -216,7 +216,7 @@ public class Mainclass {
 		}
 		System.out.println("");
 		System.out.println("Laptoop deatils");
-		ArrayList a7=new ArrayList();
+		ArrayList<Object> a7=new ArrayList<Object>();
 		a7.add(new Laptop("Tuf A15",500000,"ASUS"));
 		a7.add(new Laptop("Tuf F15",700000,"ASUS"));
 		a7.add(new Laptop("Rog",1500000,"ASUS"));
@@ -228,7 +228,7 @@ public class Mainclass {
 		}
 		System.out.println("");
 		System.out.println("Home details");
-		ArrayList a8=new ArrayList();
+		ArrayList<Object> a8=new ArrayList<Object>();
 		a8.add(new Home("Banashankari Nilaya",20000000, "Blue"));
 		a8.add(new Home("Basava Nilaya",20000000, "pink"));
 		a8.add(new Home("Mallikarjun Nilaya",20000000, "marun"));
@@ -240,7 +240,7 @@ public class Mainclass {
 		}
 		System.out.println("");
 		System.out.println("Employee details");
-		ArrayList a9=new ArrayList();
+		ArrayList<Object> a9=new ArrayList<Object>();
 		a9.add(new Employee(101,15000,'A'));
 		a9.add(new Employee(102,16000,'B'));
 		a9.add(new Employee(103,13000,'C'));
@@ -252,7 +252,7 @@ public class Mainclass {
 		}
 		System.out.println("");
 		System.out.println("Clothndetails");
-		ArrayList a10=new ArrayList();
+		ArrayList<Object> a10=new ArrayList<Object>();
 		a10.add(new Cloth("Green",350,"M"));
 		a10.add(new Cloth("blue",370,"L"));
 		a10.add(new Cloth("black",390,"M"));

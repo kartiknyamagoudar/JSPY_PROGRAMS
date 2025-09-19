@@ -4,7 +4,7 @@ package vector;
 import java.util.Vector;
 public class Vector6 {
 	public static void main(String[] args) {
-		Vector v8 = new Vector();
+		Vector<Object> v8 = new Vector<Object>();
 		
 		v8.add("goa");
 		v8.add("banglore");

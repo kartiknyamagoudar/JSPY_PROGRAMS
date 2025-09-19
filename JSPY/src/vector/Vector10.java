@@ -4,7 +4,7 @@ import java.util.Vector;
 
 public class Vector10 {
 	public static void main(String[] args) {
-		Vector v12=new Vector();
+		Vector<Object> v12=new Vector<Object>();
 		v12.add(10);
 		v12.add('A');
 		v12.add("hi");

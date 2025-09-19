@@ -6,7 +6,7 @@ import java.util.Vector;
 
 public class Vector9 {
     public static void main(String[] args) {
-        Vector v11 = new Vector();
+        Vector<Object> v11 = new Vector<Object>();
         v11.add(10);
         v11.add(20);
         v11.add(30);

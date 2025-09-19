@@ -3,7 +3,7 @@ import java.util.Vector;
 public class Vector7 {
 
 	public static void main(String[] args) {
-		Vector v9=new Vector();
+		Vector<Object> v9=new Vector<Object>();
 		v9.add(2);
 		v9.add(56);
 		v9.add(30);
