@@ -1,7 +1,5 @@
 package logics;
 
-import java.util.Scanner;
-
 public class Replacestr {
 
 	public static void main(String[] args) {
